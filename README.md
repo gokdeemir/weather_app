@@ -1,4 +1,6 @@
-# weather_app
+![ic_launcher](https://user-images.githubusercontent.com/44062527/157870884-e29d4566-9eaf-4f94-a47a-5c3a976b7b6a.png) 
+# Weather App
+
 
 Basic weather app to show basic weathers of centers over world.
 
