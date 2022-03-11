@@ -1,6 +1,6 @@
 # weather_app
 
-Basic weather app to show basic weathers of center of worlds over world.
+Basic weather app to show basic weathers of centers over world.
 
 ## ScreenShot
 ![image](https://user-images.githubusercontent.com/44062527/157870097-9c3b13ab-0484-4951-9d39-15deb116325f.png)
