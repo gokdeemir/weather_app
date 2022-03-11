@@ -1,16 +1,13 @@
 # weather_app
 
-A new Flutter project.
+Basic weather app to show basic weathers of centers over world.
 
-## Getting Started
+## ScreenShot
+![image](https://user-images.githubusercontent.com/44062527/157870097-9c3b13ab-0484-4951-9d39-15deb116325f.png)
+---
+![image](https://user-images.githubusercontent.com/44062527/157870159-95dcb1de-07f1-45d4-9c0a-bdf50bb6dbf0.png)
+---
+![image](https://user-images.githubusercontent.com/44062527/157870259-0b2fbfb9-52ab-419b-8d6b-d7f3dc38fee7.png)
+---
+![image](https://user-images.githubusercontent.com/44062527/157870362-beb253a2-48e1-46a0-b324-fd586f3f94ff.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
