@@ -98,7 +98,7 @@ class _MyAppState extends State<MyApp> {
                         ),
                         Center(
                           child: Text(
-                            temparature.toString() + "C",
+                            temparature.toString() + "°C",
                             style: const TextStyle(
                               color: Colors.white,
                               fontSize: 60,
