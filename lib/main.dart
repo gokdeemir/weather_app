@@ -13,7 +13,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  var temparature = null;
+  var temparature;
   String location = "İstanbul";
   int woeid = 2344116;
   String weather = "clear";
@@ -79,7 +79,7 @@ class _MyAppState extends State<MyApp> {
           ),
         ),
         child: temparature == null
-            ? Center(
+            ? const Center(
                 child: CircularProgressIndicator(),
               )
             : Scaffold(
@@ -99,7 +99,7 @@ class _MyAppState extends State<MyApp> {
                         Center(
                           child: Text(
                             temparature.toString() + "C",
-                            style: TextStyle(
+                            style: const TextStyle(
                               color: Colors.white,
                               fontSize: 60,
                             ),
@@ -108,7 +108,7 @@ class _MyAppState extends State<MyApp> {
                         Center(
                           child: Text(
                             location.toString(),
-                            style: TextStyle(
+                            style: const TextStyle(
                               color: Colors.white,
                               fontSize: 40,
                             ),
@@ -122,8 +122,9 @@ class _MyAppState extends State<MyApp> {
                         onSubmitted: (String input) {
                           onTextSubmitted(input);
                         },
-                        style: TextStyle(color: Colors.white, fontSize: 25),
-                        decoration: InputDecoration(
+                        style:
+                            const TextStyle(color: Colors.white, fontSize: 25),
+                        decoration: const InputDecoration(
                             hintText: "Search Another Location",
                             hintStyle:
                                 TextStyle(color: Colors.white, fontSize: 20),
@@ -134,7 +135,7 @@ class _MyAppState extends State<MyApp> {
                     Text(
                       errorMessage,
                       textAlign: TextAlign.center,
-                      style: TextStyle(
+                      style: const TextStyle(
                         color: Colors.red,
                         fontSize: 25,
                         fontWeight: FontWeight.bold,
